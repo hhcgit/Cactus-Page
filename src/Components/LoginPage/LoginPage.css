@@ -1,0 +1,13 @@
+.LoginForm{
+    font-weight:bold;
+}
+#LoginForm__user_name{
+    margin-bottom:10px;
+}
+#LoginForm__password{
+    margin-left:3px;
+}
+.Login-Btn{
+    margin-top:15px;
+
+}
