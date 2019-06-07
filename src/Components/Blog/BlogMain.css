@@ -1,4 +1,63 @@
+.Image-container{
+    width:70%;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    margin-left:150px;
+}
 img.Post-img{
-    width:60px;
-    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+.Review-Container{
+    display:flex;
+    justify-content: center;
+}
+.Post-Container{
+    display: inline;
+    justify-content: center;
+}
+.Posts-Conatiner{
+    width:100%;
+}
+h3{
+    display:flex;
+    justify-content: center;
+    font-size:1.5em;
+    font-weight:bold;
+}
+.View-Btn{
+    display:flex;
+    justify-content: center;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    height:45px;
+    font-size:1em;
+}
+.Review_content{
+    margin-left:30px;
+}
+.Date-Container{
+    margin-left:25px;
+    margin-top:15px;
+}
+.Review_user_name{
+    font-weight:bold;
+    width:120px;
+    padding:0;
+    border: 2px solid black;
+    margin-top:3px;
+}
+.Reviews-Container{
+    margin-left:0;
+}
+.Post-Content-Container{
+    width:70%;
+    min-width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:200px;
+    padding:10px 20px 10px 20px;
+    border:2px solid black;
 }

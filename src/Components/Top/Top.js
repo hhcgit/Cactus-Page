@@ -1,6 +1,6 @@
 import React from 'react';
 import './Top.css';
-import BtnSet1 from '../Top/Top';
+import BtnSet1 from '../BtnSet1/BtnSet1';
 
 export default class Top extends React.Component{
     render(){

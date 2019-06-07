@@ -20,21 +20,24 @@ export default class Blog extends React.Component{
             reviews:emptyArray
         })
     }
-    componentDidMount(){
-        fetch('https://limitless-cove-20632.herokuapp.com/api/posts',{
-            headers: {
-            },
-          })
-        .then(res=> console.log(res))
+    componentWillMount(){
+        postsApiService.getAllPosts()
+        .then(res=>res.json())
+        .then(json =>
+            this.setState({
+                posts:json
+            })
+        )
+        
     }
     render(){
         return (
-            <body>
+            <>
                 <Top />
             <div className="Blog-Main">
-                {/* <BlogMain /> */}
+                {this.state.posts[0] && <BlogMain posts={this.state.posts}/>}
             </div>
-            </body>
+            </>
         )
     }
 }

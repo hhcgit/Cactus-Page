@@ -2,6 +2,7 @@ nav.Menu {
     margin-left: 0;
     margin-right: 10px;
     float: right;
+    margin-top:30px;
 }
 nav{
     margin: 0;
@@ -11,4 +12,9 @@ nav{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+.Nav-Btn{
+    text-decoration: none;
+    color:white;
+    margin-right:40px;
 }

@@ -1,0 +1,11 @@
+.Login-Container{
+    width:100%;
+    margin-top:200px;
+    color:white;
+}
+.LoginPage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../img-store/AdobeStock_205899553.jpeg');
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
